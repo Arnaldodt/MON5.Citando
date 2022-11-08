@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/recursos/style.css">
+</head>
+<body>
+    <main>
+        <form method="post" action="/citas">
+            <ul>
+                <li>
+                    <label for="nombre">Your Name:</label>
+                </li>
+                <li>
+                    <input type="text" name="nombre" id="nombre" placeholder="Your Name">
+                </li>
+                <li class="ancho">
+                    <label for="mensaje">Your quote:</label>
+                </li>
+                <li class="ancho">
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                </li>
+                <li>
+                    <button type="submit">Add my quote!</button>
+                </li>
+                <li>
+                    <a href="/citas">Skip to quotes!</a>
+                </li>
+            </ul>
+        </form>
+    </main>
+</body>
+</html>
